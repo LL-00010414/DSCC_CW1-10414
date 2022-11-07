@@ -1,0 +1,22 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net5.0",
+    "self-contained" : false,
+    "application"    : "CarsWebAPI10414",
+    "environment"    : "CarsWebAPI10414-dev",
+    "app-path"       : "/",
+    "iis-website"    : "Default Web Site",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0d6d00bfc3db07c87\";\"aws:ec2:vpc,Subnets\"=\"subnet-06d06a1dd46e57425\"",
+    "solution-stack"       : "64bit Windows Server Core 2019 v2.10.5 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "carswebapi10414-dev",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "myKey",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
